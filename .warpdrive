@@ -1,0 +1,10 @@
+pid: cc0d3
+project: tf-wavenet
+user: strin
+volumes:
+  VCTK-Corpus:
+    did: strin/VCTK-Corpus:latest
+    where:
+      bucket: dummy-default
+      cloud: aws
+      key: strin/VCTK-Corpus:latest/
